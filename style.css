@@ -100,7 +100,6 @@ section {
 
 .container--narrow {
     max-width: 35rem;
-    line-height: 1.5;
 }
 
 /* ----------------- */
@@ -140,4 +139,14 @@ section {
 img {
     display: block;
     max-width: 100%;
+}
+
+/* footer */
+.footer {
+    margin: 0;
+    padding: 0;
+}
+
+.footer p {
+    padding: 2.5rem;
 }
