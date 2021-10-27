@@ -58,15 +58,22 @@ p {
     margin-bottom: 1em;
 }
 
+p {
+    text-align: justify;
+}
+
 header,
 section {
     padding: 4rem 0;
 }
 
 @media (min-width: 40em) {
-    header,
     section {
         padding: 7rem 0;
+    }
+
+    header {
+        padding: 10rem;
     }
 }
 
